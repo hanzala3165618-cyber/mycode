@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jenkins CI/CD Dashboard</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f4f7fb;
+}
+
+header{
+background:linear-gradient(90deg,#ff9800,#ff5722);
+color:white;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+}
+
+nav{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+padding:15px 25px;
+font-size:18px;
+}
+
+nav a:hover{
+background:#ff9800;
+border-radius:5px;
+}
+
+.hero{
+height:420px;
+background:linear-gradient(120deg,#2196f3,#00bcd4);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+color:white;
+text-align:center;
+}
+
+.hero h2{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+width:70%;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+border:none;
+background:#ff9800;
+color:white;
+font-size:18px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#ff5722;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:50px 0;
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:300px;
+padding:25px;
+margin:15px;
+border-radius:10px;
+box-shadow:0px 0px 10px rgba(0,0,0,.2);
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#2196f3;
+}
+
+.card p{
+color:#555;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🚀 Jenkins CI/CD Pipeline</h1>
+<p>Continuous Integration & Continuous Deployment Demo</p>
+
+</header>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Pipeline</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+
+</nav>
+
+<section class="hero">
+
+<h2>Welcome to Jenkins Automation</h2>
+
+<p>
+Build, Test and Deploy your applications automatically using Jenkins Pipelines and Docker.
+</p>
+
+<button>Start Pipeline</button>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+
+<h3>Build</h3>
+
+<p>
+Automatically build your application whenever code is pushed to GitHub.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Test</h3>
+
+<p>
+Run automated testing before deployment to ensure application quality.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Deploy</h3>
+
+<p>
+Deploy your application automatically to Docker containers or production servers.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Jenkins CI/CD Demo Project</h3>
+
+<p>Created by Saad Khizer | Docker | Jenkins | GitHub | CI/CD</p>
+
+</footer>
+
+</body>
+</html>
